@@ -20,6 +20,11 @@ def by_last(full_name):
     return (last_name, full_name) # note return of tuple
 
 # sort using helper function to extract sorting key
-# note: this could also be a 'lambda'
-names.sort(key=by_last)
-print("\n".join(names))
+sorted_names1 = sorted(names, key=by_last)
+print("Sort using function reference:")
+print("\n".join(sorted_names1))
+
+# alternate way to specify a key function with a lambda
+sorted_names2 = sorted(names, key=lambda full: (full.split()[-1], full))
+print("\nSort using lambda:")
+print("\n".join(sorted_names2))
