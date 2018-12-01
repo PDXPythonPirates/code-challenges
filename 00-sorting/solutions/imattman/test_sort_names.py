@@ -15,12 +15,13 @@ class TestSortNames(unittest.TestCase):
                          "expected single element list to be unmodified")
 
     def test_multi_list(self):
-        unsorted = ["Anna Smith", "John Anderson", "Cliff Bates"]
-        expected = ["John Anderson", "Cliff Bates", "Anna Smith"]
+        unsorted = ["Anna Smith", "John Anderson", "Cliff Bates", "Alan Bates", "Zack Bates", "Joe Bates"]
+        expected = ["John Anderson", "Alan Bates", "Cliff Bates", "Joe Bates", "Zack Bates", "Anna Smith"]
 
         self.assertEqual(sort_names.sort_by_last(unsorted), expected, 
                          "expected different sort order")
 
+    @unittest.skip("Enable this test if your code can handle single word names")
     def test_single_word_names(self):
         unsorted = ["Anna Smith", "John Anderson", "Cliff Bates", "Jeffrey Sinclair",
                    "Michael Garibaldi", "Susan Ivanova", "John Sheridan", "Delenn",
