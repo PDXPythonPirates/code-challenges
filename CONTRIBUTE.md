@@ -9,7 +9,7 @@ Additional challenges are gladly accepted via *pull request*.  We ask that you f
 1. Create a dedicated subdirectory for each new challenge.
 1. Describe the challenge in a `README.md` using [Markdown syntax](https://guides.github.com/features/mastering-markdown/).
 1. Place related supplemental files in the new challenge directory (as an example, see `sowpods.txt` in the `03-scrabble-words` challenge).
-1. Update `README.md` at the root of this repo, adding an entry in the list of challenges and a link to the new challenge README.
+1. Update `README.md` at the root of this repo, adding an entry in the list of challenges and a link to the new challenge directory.
 
 
 ## Submitting a Solution to a Challenge
