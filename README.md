@@ -10,6 +10,7 @@ These are some additional coding challenges to sharpen your Python programming s
 0. [Bowling Scores](https://github.com/PDXPythonPirates/code-challenges/tree/master/05-bowling-scores/)
 0. [A Grep Clone](https://github.com/PDXPythonPirates/code-challenges/tree/master/06-pygrep/)
 0. [Connect Four](https://github.com/PDXPythonPirates/code-challenges/tree/master/07-connect-four/)
+0. [Check the Weather](https://github.com/PDXPythonPirates/code-challenges/tree/master/08-weather-check/)
 
 
 ## How to Contribute
