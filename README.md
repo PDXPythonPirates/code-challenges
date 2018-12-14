@@ -12,6 +12,7 @@ These are some additional coding challenges to sharpen your Python programming s
 0. [Connect Four](https://github.com/PDXPythonPirates/code-challenges/tree/master/07-connect-four/)
 0. [Check the Weather](https://github.com/PDXPythonPirates/code-challenges/tree/master/08-weather-check/)
 0. [Sudoku Solver](https://github.com/PDXPythonPirates/code-challenges/tree/master/09-sudoku/)
+1. [URL Shortener](https://github.com/PDXPythonPirates/code-challenges/tree/master/10-url-shortener/)
 
 
 ## How to Contribute
